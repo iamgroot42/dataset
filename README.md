@@ -5,6 +5,7 @@ An inceptionv3 model trained on the OpenImages (with weights) , ready to run in 
 
 ### Running it
 
+* Download the main model by running `bash download_model.sh`
 * As a standalone file, run `python tag.py <image>`
 * To use as a module, call predict_on_image(image_path, return_dict={}), to receive the results in `return_dict`
 
